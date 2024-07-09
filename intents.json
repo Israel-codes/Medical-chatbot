@@ -1,0 +1,114 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": ["Hi there, what can I do for you?"]
+               
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": ["See you later, thanks for visiting <br>Have a nice day"]
+            
+        },
+
+        {
+            "tag": "work",
+            "patterns": [
+                "how do you work",
+                "what algorithm","algorithm use", "how your algorithm works"
+            ],
+            "responses": ["Sorry I can't say that !!! If you realy want to know you can contact us"]
+            
+        },
+
+        {
+            "tag":"who",
+            "patterns": [
+                "who are you","who you", "tell about  you", "describe","you", "what you", "can do", "what you do"
+            ],
+            "responses": ["I am Symptom checker, you can enter your the symptoms you have and you can det a list of potential conditions that you may have !!"]
+            
+        },
+
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": ["Happy to help! Any time you need ! "]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Give me a joke",
+                "Share a joke"
+            ],
+            "responses": ["Why did the doctor carry a red pen? In case they needed to draw blood!"]
+        },
+        {
+            "tag": "Common Cold",
+            "patterns": [
+                "cold, cough, tiredness, body pain",
+                "cold, cough, tiredness"
+            ],
+            "responses": ["You have may Common Cold. This is a viral infection affecting the upper respiratory system.<br>Recommended actions:<br>1. Get plenty of rest and stay hydrated.<br>2. Take over-the-counter cold medications.<br>3. Use a humidifier for congestion.<br>4. If symptoms worsen, consult a doctor."]
+        },
+        {
+            "tag": "Fever",
+            "patterns":["Fever"],
+            "responses": ["Rest and drink plenty of fluids. Medication isn't needed. Call the doctor if the fever is accompanied by a severe headache, stiff neck, shortness of breath, or other unusual signs or symptoms. If you're uncomfortable, take paracetamol."]
+        },
+        {
+            "tag": "Allergies",
+            "patterns": [
+                "sneezing, itchy eyes, runny nose, skin rash",
+                "sneezing, itchy eyes, runny nose",
+                "sneezing, skin rash, runny nose",
+                "runny nose, skin rash"
+            ],
+            "responses": ["You might be experiencing allergies. Allergies are immune system reactions to allergens in the environment.<br>Recommended actions:<br>1. Identify and avoid allergens if possible.<br>2. Over-the-counter antihistamines may help relieve symptoms.<br>3. Consult an allergist for a comprehensive evaluation and treatment plan."]
+        },
+        {
+            "tag": "Asthma",
+            "patterns": [
+                "shortness of breath, wheezing, cough, chest tightness",
+                "shortness of breath, wheezing, cough",
+                "wheezing, cough",
+                "wheezing, cough, chest tightness",
+                "shortness of breath, chest tightness"
+                
+            ],
+            "responses": ["You may have asthma. Asthma is a chronic respiratory condition that can cause breathing difficulties.<br>Recommended actions:<br>1. Use prescribed inhalers or medications as directed.<br>2. Avoid triggers that worsen symptoms (e.g., smoke, allergens).<br>3. Consult a healthcare professional for asthma management and education."]
+        },
+        {
+            "tag": "Bronchial Asthma",
+            "patterns": [
+                "cough, fatigue, high fever, family history, mucoid sputum, breathlessness",
+                "cough, high fever, family history, mucoid sputum",
+                "cough, high fever,breathlessness",
+                "cough, breathlessness",
+                "cough, fatigue, family history"
+            ],
+            "responses": ["You have Bronchial Asthma. Bronchial asthma is a chronic respiratory condition with symptoms like fatigue, cough, high fever, breathlessness, a family history of asthma, and mucoid sputum production.<br>Managing bronchial asthma involves avoiding triggers, taking prescribed medications, and having an asthma action plan."]
+           
+        }
+    ]
+}
+        
